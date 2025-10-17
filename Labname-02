@@ -1,0 +1,16 @@
+import React from "react";
+
+function Welcome({ name }) {
+  return <h2>Welcome, {name}!</h2>;
+}
+
+// Rendering dynamically with different names
+export default function App() {
+  return (
+    <div>
+      <Welcome name="Deepak" />
+      <Welcome name="Mounika" />
+      <Welcome name="Rahul" />
+    </div>
+  );
+}
